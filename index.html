@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jasa Digital Murah</title>
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --accent: #25d366;
+      --light: #f9f9f9;
+      --card: #ffffff;
+      --text: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #eef2f3, #ffffff);
+      color: var(--text);
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 40px 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      animation: fadeInDown 1s ease;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 1em;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: var(--card);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      animation: fadeIn 1s ease;
+    }
+
+    h2 {
+      color: var(--primary);
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    .product {
+      padding: 15px 10px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .product:last-child {
+      border-bottom: none;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+    }
+
+    .contact, .payment {
+      background-color: #eef6f3;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      animation: fadeInUp 1s ease;
+    }
+
+    img.qr {
+      max-width: 250px;
+      display: block;
+      margin: 15px auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: var(--accent);
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      background-color: var(--primary);
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🛠️ Jasa Digital Murah</h1>
+  <p>Trusted | Murah | Fast Response</p>
+</header>
+
+<div class="container">
+  <h2>📦 Senarai Jasa</h2>
+
+  <div class="product">
+    <span>🌐 Jasa Buat Website</span>
+    <span class="price">RM20 - RM100</span>
+  </div>
+
+  <div class="product">
+    <span>🔁 Rename Bot</span>
+    <span class="price">RM5</span>
+  </div>
+
+  <div class="product">
+    <span>🤖 Buat Bot</span>
+    <span class="price">RM10</span>
+  </div>
+
+  <div class="product">
+    <span>🛠️ Fix Bot (Plugins)</span>
+    <span class="price">RM5</span>
+  </div>
+
+  <div class="product">
+    <span>💌 Text HTML Romantis</span>
+    <span class="price">RM5</span>
+  </div>
+
+  <div class="product">
+    <span>📅 Sewa Bot</span>
+    <span class="price">RM5 / Minggu</span>
+  </div>
+
+  <div class="payment">
+    <h2>💳 Pembayaran Automatik (QR Pay)</h2>
+    <p>Scan QR di bawah untuk buat bayaran:</p>
+
+    <img src="https://iili.io/3pQ8oMu.jpg" alt="QR Pay" class="qr" />
+
+    <p><strong>Nama Penerima:</strong> Yunn Devid</p>
+
+    <p><strong>Selesai bayar?</strong> Klik butang di bawah untuk hantar bukti pembayaran melalui WhatsApp:</p>
+
+    <a class="whatsapp-button" href="https://wa.me/60177254297?text=Hai%2C%20saya%20sudah%20buat%20bayaran.%20Ini%20bukti%20pembayaran%20saya..." target="_blank">
+      📤 Hantar Bukti Pembayaran
+    </a>
+  </div>
+
+  <div class="contact">
+    <h2>📞 Hubungi Kami</h2>
+    <p>📱 WhatsApp: <a href="https://wa.me/60177254297" target="_blank">@yunnshop</a></p>
+    <p>📩 Telegram: <a href="https://t.me/yunndevid" target="_blank">@yunndev</a></p>
+    <p>⏰ Waktu Operasi: Setiap Hari, 10am - 10pm</p>
+  </div>
+
+  <!-- WhatsApp Order Button -->
+  <a class="whatsapp-button" href="https://wa.me/60177254297?text=Hai%2C%20saya%20nak%20order%20jasa%20digital%20anda!" target="_blank" style="display: block; text-align: center; margin: 30px auto;">
+    📲 Order Sekarang via WhatsApp
+  </a>
+</div>
+
+<footer>
+  &copy; 2025 Yundev | Semua Hak Terpelihara
+</footer>
+
+</body>
+  </html>
